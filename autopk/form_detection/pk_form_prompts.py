@@ -19,7 +19,6 @@ pk_extraction_config = {
         'examples': [
             "$effective T1/2 delta (days)$,$half-life lambda2 (h)$,$t1/2 (h)$",
             "$HLδ (h)$",
-            "$HL_lambda2$,$HL_ lambdaz$,$T1/2 δ$",
             "$HLα$,$T1/2 Eli$",
             "$effective T1/2 z$,$T12γ$",
             "$T12lambda2$,$half-lifeα$,$effective T1/2lambdaz$,$HL λz$"
@@ -34,7 +33,6 @@ pk_extraction_config = {
         'examples': [
             "$AUC0-∞ (ng.h/mL)$,$AUC% extrap (%)$",
             "$Oral AUC (μMh)$",
-            "$AUEC0-72$",
             "$AUC0-inf (ng*hrs/ml)$",
             "$AUClast (ng h mL-1)$",
             "$AUC0-192 g hrs per ml$"
@@ -49,7 +47,6 @@ pk_extraction_config = {
         "examples": [
             "$Cmax (ng/mL)$",
             "",
-            "$peak concentration$",
             "",
             "$cmax pgx per ml$",
             "$Maximum concentration pg/ml$"
@@ -65,7 +62,6 @@ pk_extraction_config = {
         "examples": [
             "$Tmax$",
             "",
-            "$time to peak drug concentration$",
             "",
             "$time to maximum concentration$",
             "$Tmax (hours)$"
@@ -80,7 +76,6 @@ pk_extraction_config = {
         "examples": [
             "$MRT (h)$",
             "",
-            "$MRT (min)$",
             "",
             "",
             "$Mean residence time$"
@@ -95,7 +90,6 @@ pk_extraction_config = {
         "examples": [
             "$CL/F (L/h)$",
             "$CL (L/h/kg)$",
-            "$Cl$,$CLz/F$",
             "",
             "$Cl_obs (g/min)$",
             "$Cl/Vd$"
@@ -110,7 +104,6 @@ pk_extraction_config = {
         "examples": [
             "$Vd/F (L)$",
             "$Vc (L/kg)$",
-            "$V(ss)$,$Vd/F$",
             "$Volume of distribution$",
             "$Vz$",
             "$Varea$"
@@ -125,7 +118,6 @@ pk_extraction_config = {
         "examples": [
             "",
             "$%F$",
-            "$F bio$",
             "",
             "$F%$",
             "$Bioavailability (%)$"
@@ -182,30 +174,6 @@ question: {pk_config[pk_name]['prompt']}"""
         {
             "role": "user",
             "content": f"""This is the table:
-Parameter,Unit,chicken
-,,Intramuscular
-V(ss),l,7.48799847231819
-time to peak drug concentration,day,14.0475596124332
-HL_lambda2,hours,17.9428514196301
-peak concentration,mgxl-1,90.1222911324324
-AUEC0-72,µgxhrµl-1,637
-MRT (min),WTD,130.879903809212
-HL_ lambdaz,minutes,34.5430042690434
-Cl,pg/s,8.12618202580096
-T1/2 δ,h,15.0462053996788
-F bio,%,124.5124
-CLz/F,mL/h/kg,1.1256
-Vd/F,mL/kg,114.2656
-
-question: {pk_config[pk_name]['prompt']}"""},
-        {
-            "role": "assistant",
-            "content": pk_config[pk_name]['examples'][2]
-        },
-        # Example 4
-        {
-            "role": "user",
-            "content": f"""This is the table:
 ^Agent^,^^Agent^Volume of distribution^,^HLα^Agent^Normal^,animal^T1/2 Eli^Agent^CrCl<10 mL/min^,^AUC0-inf (ng*hrs/ml)^animal^CrCl<10 mL/min
 Amikacin,0.3,2.5–3,30,142
 Arbekacin,nan,2.3,nan,nan
@@ -223,7 +191,7 @@ question: {pk_config[pk_name]['prompt']}"""},
             "role": "assistant",
             "content": pk_config[pk_name]['examples'][3]
         },
-        # Example 5
+        # Example 4
         {
             "role": "user",
             "content": f"""This is the table:
@@ -243,7 +211,7 @@ question: {pk_config[pk_name]['prompt']}"""},
             "role": "assistant",
             "content": pk_config[pk_name]['examples'][4]
         },
-        # Example 6
+        # Example 5
         {
             "role": "user",
             "content": f"""This is the table:
