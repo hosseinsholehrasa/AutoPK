@@ -1,4 +1,4 @@
-data/
+dataset/
 experiments/evaluation_logs/
 
 # Byte-compiled / optimized / DLL files
