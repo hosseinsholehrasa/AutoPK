@@ -17,6 +17,11 @@
 
 ![AutoPK Pipeline](docs/autopk_pipeline.png)
 
+## 🗺️ Roadmap
+
+- [x] Release modules  
+- [x] Release evaluation code  
+- [ ] Release dataset (pending permissions) 
 
 ## 🛠️ Installation
 
