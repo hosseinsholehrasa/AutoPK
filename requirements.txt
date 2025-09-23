@@ -1,0 +1,13 @@
+pandas
+matplotlib
+numpy
+unidecode
+tqdm
+scikit-learn==1.5.1
+torch==2.3.0
+torchvision==0.18.0
+transformers==4.44.0
+datasets
+openpyxl
+openai==1.82.0
+accelerate==1.10.1
