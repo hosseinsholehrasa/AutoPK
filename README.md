@@ -8,7 +8,7 @@
 <a href="#-quick-start">Quick Start</a> |
 <a href="#-evaluation">Evaluation</a> |
 <a href="#-arguments">Arguments</a> |
-<a href="https://arxiv.org/abs/XXXX.XXXXX">Paper</a> |
+<a href="https://arxiv.org/abs/2510.00039">Paper</a> |
 <a href="docs/project_details.md">More Details</a>
 </p>
 </div>
@@ -103,5 +103,3 @@ This will:
 If you find this repository useful, please consider giving a ⭐ or citing our work:
 
 ```bibtex
-@inproceedings{
-}
