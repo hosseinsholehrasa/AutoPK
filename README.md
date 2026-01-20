@@ -8,7 +8,8 @@
 <a href="#-quick-start">Quick Start</a> |
 <a href="#-evaluation">Evaluation</a> |
 <a href="#-arguments">Arguments</a> |
-<a href="https://arxiv.org/abs/2510.00039">Paper</a> |
+<a href="https://ieeexplore.ieee.org/document/11272455">Paper</a> |
+<a href="https://arxiv.org/abs/2510.00039">ArXiv version</a> |
 <a href="docs/project_details.md">More Details</a>
 </p>
 </div>
@@ -103,3 +104,14 @@ This will:
 If you find this repository useful, please consider giving a ⭐ or citing our work:
 
 ```bibtex
+@INPROCEEDINGS{autopk_sholehrasa,
+  author={Sholehrasa, Hossein and Ghanaatian, Amirhossein and Caragea, Doina and Tell, Lisa A. and Riviere, Jim E. and Jaberi-Douraki, Majid},
+  booktitle={2025 IEEE 37th International Conference on Tools with Artificial Intelligence (ICTAI)}, 
+  title={AutoPK: Leveraging LLMs and a Hybrid Similarity Metric for Advanced Retrieval of Pharmacokinetic Data From Complex Tables and Documents}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={338-346},
+  keywords={Drugs;Terminology;Large language models;Decision making;Standardization;Data retrieval;Safety;Data mining;Pharmacokinetics;Public healthcare;Pharmacokinetic Data Extraction;Automated;Information Retrieval (IR);Table Reconstruction;Table Information Extraction;Large Language Models (LLMs);Pharmacology Data Processing Pipeline},
+  doi={10.1109/ICTAI66417.2025.00051}}
+
