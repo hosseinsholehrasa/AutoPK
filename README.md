@@ -22,7 +22,7 @@
 
 - [x] Release modules  
 - [x] Release evaluation code  
-- [ ] Release dataset (pending permissions) 
+- [x] Release dataset DOIs
 
 ## 🛠️ Installation
 
